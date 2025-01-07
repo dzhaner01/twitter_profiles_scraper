@@ -1,6 +1,6 @@
-# 🐦 Twitter Profile Scraper
+# 🐦 X (Twitter) Profile Scraper
 
-Python script for fetching and storing data from public Twitter profiles, including user information, recent tweets, and highlighted tweets.
+Python script for fetching and storing data from public X (Twitter) profiles, including user information, recent tweets, and highlighted tweets.
 
 ## ✨ Features
 
@@ -126,4 +126,4 @@ The script will generate the following output files in the same directory:
 - You can adjust the `TWEET_LIMIT` and `HIGHLIGHT_TWEET_LIMIT` constants in the script to fetch more or fewer tweets.
 - For scraping a large number of users, consider the Twitter API rate limits and adjust the sleep times (`SLEEP_BETWEEN_USERS_MIN`, `SLEEP_BETWEEN_USERS_MAX`) accordingly.
 - It's recommended to use cookie-based authentication after the initial login to potentially reduce the chance of being flagged for excessive login attempts.
-- This script is intended for educational and research purposes only. Please adhere to Twitter's terms of service and API usage guidelines.
+- This script is intended for educational and research purposes only. Please adhere to X's terms of service and API usage guidelines.
